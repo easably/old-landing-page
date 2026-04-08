@@ -9,7 +9,7 @@ body {
 	font-size: 1rem;
 	overflow-x: hidden;
 
-	background: url('../img/illustration6(3).svg') bottom/cover no-repeat;
+	background: url('../img/lang/Illustration6(3).svg') bottom/cover no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
@@ -550,7 +550,7 @@ h2>sup {
 
 
 .blog-button {
-	background-image: url("../img/blog/svg/decor.svg");
+	background-image: url("../img/blog/svg/Decor.svg");
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	-webkit-background-size: 40%;

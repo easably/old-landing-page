@@ -1,0 +1,92 @@
+/* Shared styles for pandoc-generated article pages */
+html {
+	color: #1a1a1a;
+	background: #fdfdfd;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 42em;
+	padding: 1.5rem 1.25rem 3rem;
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+}
+
+.top-nav {
+	font-family: system-ui, -apple-system, sans-serif;
+	font-size: 0.95rem;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #e0e8ec;
+}
+
+.top-nav a {
+	color: #45B8FF;
+	font-weight: 600;
+	text-decoration: none;
+	margin-right: 0.25rem;
+}
+
+.top-nav a:hover {
+	color: #215599;
+	text-decoration: underline;
+}
+
+.post {
+	font-size: 1.05rem;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4 {
+	font-family: system-ui, -apple-system, sans-serif;
+	color: #215599;
+	font-weight: 650;
+	line-height: 1.25;
+	margin-top: 1.75rem;
+	margin-bottom: 0.75rem;
+}
+
+.post h1 {
+	font-size: 1.85rem;
+	margin-top: 0;
+}
+
+.post p {
+	margin: 0.85em 0;
+}
+
+.post ul,
+.post ol {
+	margin: 0.85em 0;
+	padding-left: 1.35em;
+}
+
+.post img {
+	max-width: 100%;
+	height: auto;
+}
+
+.post a {
+	color: #45B8FF;
+}
+
+.post blockquote {
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 4px solid #45B8FF;
+	color: #333;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 1rem;
+		font-size: 1rem;
+	}
+
+	.post h1 {
+		font-size: 1.5rem;
+	}
+}

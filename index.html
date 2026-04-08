@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="EasyLang — learn languages with YouTube and Netflix. Free open-source tutor: vocabulary from videos, subtitles, and context you choose.">
+	<meta name="keywords" content="learn languages with YouTube, learn languages with Netflix, language learning app, YouTube language learning, Netflix language learning, subtitles learn language, EasyLang, free language tutor, Chrome extension">
+	<meta name="author" content="EasyLang">
+	<meta name="robots" content="index,follow">
+	<link rel="canonical" href="https://easylang.app/">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://easylang.app/">
+	<meta property="og:title" content="EasyLang — Learn languages with YouTube &amp; Netflix">
+	<meta property="og:description" content="Free open-source language tutor. Turn YouTube, Netflix and any video into lessons with subtitles and vocabulary in context.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="EasyLang — Learn languages with YouTube &amp; Netflix">
+	<meta name="twitter:description" content="Free open-source language tutor. Learn from YouTube, Netflix and any video—with subtitles and vocabulary in context.">
+	<link rel="shortcut icon" href="img/logo/icon128.png" type="image/png">
+
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/Kodchasan/kodchasan.css">
+	<link rel="stylesheet" href="fonts/Comfortaa/comfortaa.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/animate.css">
+
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/en.js"> </script>
+	<script src="js/ru.js"> </script>
+	<script src="js/cn.js"> </script>
+	<script src="js/script.js"> </script>
+	<title>EasyLang — Learn languages with YouTube &amp; Netflix | Free language tutor</title>
+</head>
+
+<body>
+	<nav class="navbar no-fixed-bar">
+		<div class="sticky-bar">
+			<div class="logo">
+				<a href="/" class="logo-light">EasyLang</a>
+			</div>
+			<div class="lang">
+				<form action="">
+					<select name="changeLang" id="getLang" onchange="changeLocale()">
+						<option value="en" id="english">English</option>
+						<option value="ru" id="russian">Русский</option>
+						<option value="cn" id="chinese">中文</option>
+					</select>
+				</form>
+			</div>
+			<div class="menu-wrapper">
+				<div class="menu-block">
+					<div class="menu-main">
+						<div class="overlay"></div>
+						<ul class="menu-main-list">
+							<li>
+								<span class="menu-logo">EasyLang</span>
+							</li>
+							<li><a href="#toGetStarted" class="menu-nav__link" id="ourApp"></a></li>
+							<li><a href="#howItWork" class="menu-nav__link" id="HowItWork"></a></li>
+							<li><a href="#source" class="menu-nav__link" id="learningSources"></a>
+							</li>
+							<li><a href="blog/" class="menu-nav__link" id="ourBlog"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-btn" onclick="return false;"><span></span></div>
+			</div>
+		</div>
+	</nav>
+
+	<header class="hero">
+		<div class="wrapper-hero">
+			<div>
+				<h1 class="hero-title" id="headerTitle"></h1>
+				<p class="subtitle" id="headerSubtitle"></p>
+			</div>
+
+			<div class="button-started">
+				<a class="get-started-button" href="#toGetStarted" id="buttonStarted"></a>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<section class="content content-enjoyLearning">
+			<div class="enjoyIt-wrapper">
+				<div class="enjoyIt-heading">
+					<h2 id="headPleasure"></h2>
+					<p id="contentPleasure"></p>
+				</div>
+				<div class="imgEnjoy"><img src="img/lang/landingillustration2.svg" alt="Enjoy learning"></div>
+			</div>
+
+		</section>
+
+		<section class="content content-context-memory">
+			<div class="context-title">
+				<h2 class="context-heading" id="headMemory"></h2>
+				<p id="contentMemory"></p>
+			</div>
+			<div class="img-context-puzzle">
+				<img src="img/lang/puzzle2.svg" alt="">
+			</div>
+		</section>
+
+		<section class="content content-ourApp" id="toGetStarted">
+			<div class="app-download-wrapper">
+
+				<div class="img-phone">
+					<img class="img-phone-back" src="img/lang/phoneBackground.svg" alt="Mobile background">
+					<img class="img-phone-front wow slideInLeft" data-wow-offset="500" data-wow-duration=".8s"
+						src="img/phone.svg" alt="EasyLang app">
+				</div>
+				<div class="content-description">
+					<h2 id="headOurApp"></h2>
+					<p id="contentOurApp"></p>
+					<div class="button-block">
+
+						<div class="button-group button-group-1">
+							<a class="button-install button-chrome" id="extension"
+								href="https://github.com/easably/extension/releases/download/0.1.2/extension-master.zip"></a>
+							<a href="https://github.com/easably/extension/blob/master/README.md"
+								class="button-install button-guide" target="_blank"
+								role="button"><i class="fa fa-cog"> </i> <span id="extensionGuide"></span></a>
+						</div>
+
+						<div class="button-group button-group-2"><a class="button-install button-web"
+								href="http://easy4learn.com/tutor" target="_blank">Web</a>
+						</div>
+
+						<div class="button-group button-group-3">
+							<a class="button-install button-android"
+								href="https://github.com/easably/context-tutor/releases/download/0.1.11/app-debug.apk">Android</a>
+							<a class="button-install button-iOS" href="https://testflight.apple.com/join/w0Dyxqef"
+								target="_blank">iOS</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="content content-howItWorks" id="howItWork">
+			<div>
+				<h2 id="headHowItWorks"></h2>
+				<div class="slider-wrapper">
+					<div class="slider">
+						<div class="slides"
+							data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
+							<div class="slide 1th">
+								<figure class="slick-slide-inner">
+									<img src="img/slider/gif/ezgif.com-optimize.gif" alt="" />
+									<figcaption class="image-carousel-caption" id="sliderCaptionFirst"></figcaption>
+								</figure>
+							</div>
+
+							<div class="slide 2th">
+								<figure class="slick-slide-inner">
+									<img src="img/slider/img/video.png" alt="" />
+									<figcaption class="image-carousel-caption" id="sliderCaptionSecond"></figcaption>
+								</figure>
+							</div>
+							<div class="slide 3th">
+								<div id="slideThird"></div>
+							</div>
+							<div class="slide 4th">
+								<div id="slideFourth"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="extension">
+					<div class="extension-img"> <img src="img/lang/ExtensionIllustration1.png" alt="extension for Chrome">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="call-to-action">
+			<section class="content content-sources" id="source">
+				<div class="sources-wrapper">
+					<div class="sources-title">
+						<h2 id="headSource"></h2>
+						<p id="contentSource"></p>
+					</div>
+					<div class="sources-block">
+						<div class="first-part">
+							<div class="sources-paragraph">
+								<h3 id="movie"></h3>
+								<p id="movieParagraph"></p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="news"></h3>
+								<p id="newsParagraph"></p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="book"></h3>
+								<p id="bookParagraph"></p>
+							</div>
+						</div>
+						<div class="second-part">
+							<div class="sources-paragraph">
+								<h3 id="video"></h3>
+								<p id="videoParagraph"></p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="music"></h3>
+								<p id="musicParagraph"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="blog">
+			<h2 id="blog"></h2>
+			<div class="blog-button">
+				<a href="blog/" id="Blog"></a>
+			</div>
+		</div>
+	</div>
+	<footer class="get-started-footer">
+		<div class="button-started get-started">
+			<a class="get-started-button2" href="#toGetStarted" id="getStarted"></a>
+		</div>
+	</footer>
+
+	<button onclick="topFunction()" id="btnTop" title="Go to top"></button>
+</body>
+
+</html>
